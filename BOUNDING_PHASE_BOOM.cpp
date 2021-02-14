@@ -3,6 +3,7 @@
 
 BOUNDING PHASE METHOD
 
+SUDHARSAN NEELAMEGAM
 
 */
 #include <bits/stdc++.h>
@@ -24,9 +25,6 @@ int main()
   int c,con=0;
   cout<<"Enter the initial guess value x0 and increment value k:";
   cin>>x0>>d;
-  
-  
-  
   cout<<"k   xk      x(k+1)      fxk     fx(k+1)     cond"<<endl;
     fmm=x0-d;
     f0=x0;
@@ -34,22 +32,17 @@ int main()
     fpp=x0+d;
     xkp=fpp;
   while(v==0)
-  {
-      
-      int a=fun(fmm),b=fun(xk),c=fun(xkp);   
+  {   int a=fun(fmm),b=fun(xk),c=fun(xkp);   
       if(b<=c)
       { con++;
         cout<<k<<"  "<<xk<<"  "<<xkp<<"  "<<b<<"  "<<c<<"  "<<con<<endl;
         break;
       }
-     cout<<k<<"  "<<xk<<"  "<<xkp<<"  "<<b<<"  "<<c<<"  "<<con<<endl;
-     
+    cout<<k<<"  "<<xk<<"  "<<xkp<<"  "<<b<<"  "<<c<<"  "<<con<<endl;
      xk=xkp;
      xkp=xk+((pow(2,k+1))*d);
      k++;
-     
   }
   cout<<"Req range is: ("<<(xk-(pow(2,k-1)*d))<<","<<xkp<<")";
-
-return 0; 
+  return 0; 
 }
