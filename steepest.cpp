@@ -67,7 +67,7 @@ int main()
   gf1[1]=f2(X1[0],X1[1]);
   S[0]=-1*gf1[0];
   S[1]=-1*gf1[1];
-  for(int j=0;j<10;j++)             //Enter j<n value for n iterations
+  for(int j=0;j<10;j++)             //Enter n value for n iterations
   {   cout<<"Iteration No."<<(i+1)<<endl;
       ;
       cout<<"Search Direc is : ("<<S[0]<<","<<S[1]<<")"<<endl;
