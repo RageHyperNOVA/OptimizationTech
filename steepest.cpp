@@ -69,7 +69,6 @@ int main()
   S[1]=-1*gf1[1];
   for(int j=0;j<10;j++)             //Enter n value for n iterations
   {   cout<<"Iteration No."<<(i+1)<<endl;
-      ;
       cout<<"Search Direc is : ("<<S[0]<<","<<S[1]<<")"<<endl;
       float k1=univariate(X1,S);
       float z=k1;
