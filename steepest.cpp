@@ -62,7 +62,7 @@ float univariate();
 int main()
 { float X1[2]={0,0},S[2]; //Trial Point X1
   float gf1[2];
-  int t=0,i=0;
+  int i=0;
   gf1[0]=f1(X1[0],X1[1]);
   gf1[1]=f2(X1[0],X1[1]);
   S[0]=-1*gf1[0];
@@ -85,7 +85,7 @@ int main()
       i++;
       if(e==0 && r==e)
       {
-      t++;
+      break;
       }
   }
 
