@@ -48,7 +48,7 @@ float univariate(float x0[2],float s[2])
     { float t1,t2;
 
            t1=gf(x0[0]+k*s[0],x0[1]+k*s[1]);
-           t2=gf(x0[0]+(k-0.001)*s[0],x0[0]+(k-0.001)*s[0]);
+           t2=gf(x0[0]+(k-0.001)*s[0],x0[1]+(k-0.001)*s[1]);
      if(t1<t2)
         {break;}
      else
