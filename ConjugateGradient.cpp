@@ -1,5 +1,8 @@
-//Cauchy's Steepest Descent Method
+//Conjugate Gradient Method Descent Method
 //Sudharsan Neelamegam
+
+
+// IMP NOTE : Run for 1 iteration , get X(1) value and put it in X={} while initializing and run for 10 loop
 
 #include <bits/stdc++.h>
 #include <math.h>
