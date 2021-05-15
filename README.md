@@ -1,6 +1,5 @@
 # OptimizationTech
 
-[UPDATE]STAY TUNED .. More codes incoming....................
 
 
 Codes for optimization techniques (maths) course of semester 4 of ECE
