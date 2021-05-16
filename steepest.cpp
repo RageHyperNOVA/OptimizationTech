@@ -16,7 +16,7 @@ float f1(float x1,float x2)
 }
 float f2(float x1,float x2)
 { float r1;
-  r1=(-1+2*x1+2*x2); //Gradient First term
+  r1=(-1+2*x1+2*x2); //Gradient Second term
   return r1;
 }
 float gf(float p,float q)
